@@ -5,13 +5,12 @@
 
 }
 
-.channes-Manu {
-    display: inline-grid;
-}
+
 
 .Container {
     width: 1320px;
     margin-bottom: 100px;
+
 }
 
 .Start-Manu {
@@ -113,6 +112,19 @@ section {
 
 }
 
+/* .channes-Manu h2 {
+    width: 200px;
+}
+
+.channes-Manu button {
+    background-color: white;
+    border-radius: 7px;
+    margin: 15px 10px;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 10px;
+} */
+
 h2 a {
     text-decoration: none;
     color: black;
@@ -146,7 +158,7 @@ h2 a {
 }
 
 .Imges-Info {
-    width: 100%;
+    width: 90%;
     padding-left: 17px;
     padding-top: 15px;
 
@@ -223,4 +235,156 @@ hr {
     color: #B9B9B9;
     padding: 15px;
 
+}
+
+/* @media screen and (max-width: 576px) {
+    .All-GolsImg {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .Start-Manu {
+        background-color: aqua;
+    }
+} */
+
+/* Small Decice */
+@media screen and (max-width: 576px) {
+    .Start-Manu {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .Img {
+        width: 100%;
+        justify-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .header {
+        justify-content: center;
+        display: flex;
+    }
+
+    .All-Blogs {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .All-GolsImg {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
+    .Foooter-Container a {
+        display: inline-block;
+    }
+
+    .Foooter-Container h2 {
+        display: block;
+    }
+
+    .Foooter-Container hr {
+        display: block;
+    }
+
+    .Foooter-Container {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    .Container {
+        width: 100%;
+    }
+}
+
+
+
+/* secound line */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .Start-Manu {
+        display: flex;
+        background-color: aqua;
+    }
+
+    .Img img {
+        width: 100%;
+    }
+
+    .Info h2 {
+        font-size: 25px;
+    }
+
+    .All-Blogs {
+
+        display: block;
+    }
+
+    .channes-Manu {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        justify-items: center;
+        width: 100%;
+        height: 100px;
+        margin-bottom: 25px;
+        background-color: white;
+        margin: 20px auto;
+
+    }
+
+    .channes-Manu h2 {
+        width: 350px;
+        border: 1px solid black;
+        margin: 10px 7px;
+        justify-content: space-between;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .Tablet {
+        display: none;
+    }
+
+    .All-Blogs {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .All-GolsImg {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        gap: 20px;
+    }
+
+    .Foooter-Container a {
+        display: inline-block;
+    }
+
+    .Foooter-Container h2 {
+        display: block;
+    }
+
+    .Foooter-Container hr {
+        display: block;
+    }
+
+    .Foooter-Container {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    .Container {
+        width: 100%;
+    }
+
+    .Company-Detiles a {
+        font-size: 19px;
+    }
 }
