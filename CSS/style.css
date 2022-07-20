@@ -281,7 +281,7 @@ hr {
     }
 
     .Foooter-Container a {
-        display: inline-block;
+        display: block;
     }
 
     .Foooter-Container h2 {
@@ -308,17 +308,31 @@ hr {
 /* secound line */
 @media screen and (min-width: 577px) and (max-width: 768px) {
     .Start-Manu {
-        display: flex;
+
         background-color: aqua;
     }
 
     .Img img {
         width: 100%;
+        height: 100%;
     }
 
-    .Info h2 {
-        font-size: 25px;
+    .Info {
+        width: 100%;
+        height: 50%;
     }
+
+    .Info h1 {
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    .Info p {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+
 
     .All-Blogs {
 
