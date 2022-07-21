@@ -349,10 +349,6 @@ hr {
 
 /* secound line */
 @media screen and (min-width: 577px) and (max-width: 768px) {
-    .Start-Manu {
-
-        background-color: aqua;
-    }
 
     .Img img {
         width: 100%;
