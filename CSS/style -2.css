@@ -191,6 +191,22 @@ h2 a {
     margin-left: 35px;
 }
 
+.Tablet-Buttom {
+    text-align: center;
+    padding-top: 55px;
+    display: none;
+
+}
+
+.Tablet-Buttom button {
+    padding: 11px 25px;
+    font-size: 20px;
+    background-color: #DD0000;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
 footer {
     width: 100%;
 
